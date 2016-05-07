@@ -89,6 +89,22 @@ html, body{
 .heading:hover span.title{
   letter-spacing: 0.5vw;
 }
+.slogan {
+  margin: 1vh auto;
+  -webkit-transition: all 300ms cubic-bezier(1, 0.43, 0.02, 0.79);
+  transition: all 300ms cubic-bezier(1, 0.43, 0.02, 0.79);
+}
+.slogan span.slogan-text {
+  font-style: italic;
+  color: rgb(98, 98, 98);
+  font-family: monospace;
+  font-size: 1.25vw;
+  font-weight: lighter;
+  cursor: pointer;
+}
+.slogan:hover {
+  transform: rotate(2deg);
+}
 .content-wrapper .comments{
   display: -webkit-flex;
   display: -moz-flex;
